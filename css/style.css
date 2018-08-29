@@ -1472,6 +1472,9 @@ button:focus {
   .comments-area {
     padding: 50px 8px;
   }
+  .navbar-brand.logo_h{
+    width: 200px;
+  }
 }
 
 .comments-area h4 {
