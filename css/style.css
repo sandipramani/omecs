@@ -329,7 +329,7 @@ button:focus {
 }
 
 .home_banner_area .banner_inner{
-  background: url(img/home-banner.jpg) no-repeat 100% 100%;
+  background: url(../img/home-banner.jpg) no-repeat 100% 100%;
 }
 
 .top_menu .float-left a {
