@@ -328,6 +328,10 @@ button:focus {
   line-height: 70px;
 }
 
+.home_banner_area .banner_inner{
+  background: url(img/home-banner.jpg) no-repeat 100% 100%;
+}
+
 .top_menu .float-left a {
   line-height: 40px;
   color: #777777;
