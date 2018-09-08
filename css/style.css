@@ -3795,6 +3795,7 @@ h6 {
 
 .f_p_item .f_p_img .p_icon a:last-child {
   margin-bottom: 0px;
+  border: solid 1px #333;
 }
 
 .f_p_item .f_p_img .p_icon a:hover {
@@ -4213,7 +4214,7 @@ h6 {
 /* Single Product Area css
 ============================================================================================ */
 .product_image_area {
-  padding-top: 120px;
+  padding-top: 40px;
 }
 
 .s_product_img .carousel {
@@ -4393,6 +4394,12 @@ h6 {
   margin-top: 60px;
 }
 
+.product-info-table{
+  border: solid 1px #e8f0f2;
+}
+.product-info-table table{
+  margin-bottom: 0;
+}
 .product_description_area .nav.nav-tabs {
   background: #e8f0f2;
   text-align: center;
@@ -5785,7 +5792,7 @@ h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: #e5ecee;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
