@@ -40,7 +40,7 @@ $message = $_POST['message'];
         $mail->Host = 'ssl://smtp.gmail.com';  
         $mail->SMTPAuth = true;                              
         $mail->Username = 'sandippatel0098@gmail.com';
-        $mail->Password = 'ccsfxgfwecqtjqrk';
+        $mail->Password = 'Sandip@1234';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         // $mail->setFrom('parth@empyrealinfotech.com', 'Parth');
@@ -55,9 +55,9 @@ $message = $_POST['message'];
         // }   
         // $mail->addReplyTo('parth@empyrealinfotech.com', 'Parth');
 
-        $mail->setFrom($employee_email, $fname.' '.$lname);
+        $mail->setFrom('sandippatel0098@gmail.com', 'sandip');
         
-        $mail->addReplyTo('sandippatel0098@gmail.com', $fname.' '.$lname);
+        $mail->addReplyTo('sandippatel0098@gmail.com', 'sandip');
 
         
         $mail->isHTML(true);                   
