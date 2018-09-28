@@ -40,7 +40,7 @@ $message = $_POST['message'];
         $mail->Host = 'ssl://smtp.gmail.com';  
         $mail->SMTPAuth = true;                              
         $mail->Username = 'sandippatel0098@gmail.com';
-        $mail->Password = 'Sandip@1234';
+        $mail->Password = 'Sandip@12345';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         // $mail->setFrom('parth@empyrealinfotech.com', 'Parth');
